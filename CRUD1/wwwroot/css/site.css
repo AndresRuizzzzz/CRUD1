@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table.table td {
+    color: white; /* Cambia este valor al color de texto que desees */
+}
+
+table.table th {
+    color: white; /* Cambia este valor al color de texto que desees */
+}
+
+/* Cambiar el color de fondo del elemento con la clase "card-body" */
+.card-body {
+    background-color: black; /* Cambia este valor al color de fondo que desees */
+}
+
